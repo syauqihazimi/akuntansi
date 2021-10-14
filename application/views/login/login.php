@@ -37,7 +37,7 @@
             
             <div class="card-body px-lg-5 py-lg-5">
               <div class="text-center text-muted mb-4">
-                <h1 class="my-5" style="font-family: 'Bungee Shade';font-size:40px;">LOG-IN</h1>
+              <img src="<?= base_url('assets/img/brand/blue.png') ?>" class="w-100">
               </div>
               <form role="form" action="<?= base_url('login') ?>" method="post">
                 <div class="form-group mb-3">

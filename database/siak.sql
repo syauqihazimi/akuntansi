@@ -135,7 +135,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id_user`, `nama`, `jk`, `alamat`, `email`, `username`, `password`, `last_login`) VALUES
-(1, 'Hidayat Chandra', 'laki-laki', 'JL.H.B Jassin No.337', 'hidayatchandra08@gmail.com', 'hidayat', '69005bb62e9622ee1de61958aacf0f63', '2018-11-29 13:32:59');
+(1, 'Kelas 5A SI FST 2019', 'laki-laki', 'SI FST', 'kelas5a@gmail.com', 'kelas5a', '69005bb62e9622ee1de61958aacf0f63', '2018-11-29 13:32:59');
 
 --
 -- Indexes for dumped tables
