@@ -1,85 +1,120 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
-  <meta name="author" content="Creative Tim">
-  <title>SIA | Login</title>
-  <!-- Favicon -->
-  <link href="<?= base_url('assets/img/brand/favicon.png')?>" rel="icon" type="image/png">
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
-  <!-- Icons -->
-  <link href="<?= base_url('assets/vendor/nucleo/css/nucleo.css')?>" rel="stylesheet">
-  <link href="<?= base_url('assets/vendor/@fortawesome/fontawesome-free/css/all.min.css') ?>" rel="stylesheet">
-  <!-- Argon CSS -->
-  <link type="text/css" href="<?= base_url('assets/css/argon.css?v=1.0.0') ?>" rel="stylesheet">
+	<title>Berkah Laundry - Login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="<?= base_url('assets/images/icons/favicon.ico') ?>"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="<?= base_url('assets/vendor/bootstrap/css/bootstrap.min.css') ?>">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="<?= base_url('assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css') ?>">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="<?= base_url('assets/vendor/animate/animate.css') ?>">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="<?= base_url('assets/vendor/css-hamburgers/hamburgers.min.css') ?>">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="<?= base_url('assets/vendor/select2/select2.min.css') ?>">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/util.css') ?>">
+	<link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/main.css') ?>">
+<!--===============================================================================================-->
 </head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<div class="login100-pic js-tilt" data-tilt>
+					<img src=" <?= base_url('assets/img/brand/300x300.png') ?>" alt="IMG">
+				</div>
 
-<body class="bg-default">
-  <div class="main-content">
-    <!-- Header -->
-    <div class="header bg-gradient-primary py-7 py-lg-8">
-      <div class="separator separator-bottom separator-skew zindex-100">
-        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-          <polygon class="fill-default" points="2560 0 2560 100 0 100"></polygon>
-        </svg>
-      </div>
-    </div>
-    <!-- Page content -->
-    <div class="container mt--8 pb-5">
-      <div class="row justify-content-center">
-        <div class="col-lg-5 col-md-7">
-          <div class="card bg-secondary shadow-lg border-0">
-            
-            <div class="card-body px-lg-5 py-lg-5">
-              <div class="text-center text-muted mb-4">
-              <img src="<?= base_url('assets/img/brand/blue.png') ?>" class="w-100">
-              </div>
-              <form role="form" action="<?= base_url('login') ?>" method="post">
-                <div class="form-group mb-3">
-                  <div class="input-group input-group-alternative">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text"><i class="ni ni-circle-08"></i></span>
-                    </div>
-                    <input class="form-control" placeholder="Username" type="text" name="username" value="<?= $data->username ?>">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="input-group input-group-alternative">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
-                    </div>
-                    <input class="form-control" placeholder="Password" type="password" name="password" value="<?= $data->password ?>">
-                  </div>
-                </div>
-                <div class="custom-control custom-control-alternative custom-checkbox">
-                  <input class="custom-control-input" id=" customCheckLogin" type="checkbox">
-                  <label class="custom-control-label" for=" customCheckLogin">
-                    <span class="text-muted">Remember me</span>
-                  </label>
-                </div>
-                <div class="text-center">
-                  <button type="submit" class="btn btn-primary my-4">Sign in</button>
-                </div>
-              </form>
-            </div>
+				<form role="form" action="<?= base_url('login') ?>" method="post" class="login100-form validate-form">
+					<span class="login100-form-title">
+						Sistem Informasi Akuntansi
+					</span>
+
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input100 form-control" placeholder="Username" type="text" name="username" value="<?= $data->username ?>">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Password is required">
+						<input class="input100 form-control" placeholder="Password" type="password" name="password" value="<?= $data->password ?>">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+					</div>
+          <div class="text-center">
+						<span class="txt1">
+							Login sebagai..
+						</span>
+					</div>
+          <div class="btn-group" data-toggle="buttons">
+            <label class="btn btn-light active">
+              <input type="radio" name="options" id="option1" checked> Admin
+            </label>
+            <label class="btn btn-light">
+              <input type="radio" name="options" id="option2"> Accountant
+            </label>
+            <label class="btn btn-light">
+              <input type="radio" name="options" id="option3"> Finance
+            </label>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Argon Scripts -->
-  <!-- Core -->
-  <script src="<?= base_url('assets/vendor/jquery/dist/jquery.min.js') ?>"></script>
-  <script src="<?= base_url('assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js') ?>"></script>
-  <!-- Argon JS -->
-  <script src="<?= base_url('assets/js/argon.js?v=1.0.0') ?>"></script>
+					
+					<div class="container-login100-form-btn">
+						<button type="submit" class="login100-form-btn">
+							Login
+						</button>
+					</div>
+
+					<!-- <div class="text-center p-t-12">
+						<span class="txt1">
+							Forgot
+						</span>
+						<a class="txt2" href="#">
+							Username / Password?
+						</a>
+					</div> -->
+
+					<div class="text-center p-t-136">
+						<a class="txt2" href="#">
+							Kelas 5A - Sistem Informasi
+							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	
+
+	
+<!--===============================================================================================-->	
+	<script src=" <?= base_url('assets/vendor/jquery/jquery-3.2.1.min.js') ?>"></script>
+<!--===============================================================================================-->
+	<script src=" <?= base_url('assets/vendor/bootstrap/js/popper.js') ?>"></script>
+	<script src=" <?= base_url('assets/vendor/bootstrap/js/bootstrap.min.js') ?>"></script>
+<!--===============================================================================================-->
+	<script src=" <?= base_url('assets/vendor/select2/select2.min.js') ?>"></script>
+<!--===============================================================================================-->
+	<script src=" <?= base_url('assets/vendor/tilt/tilt.jquery.min.js') ?>"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src=" <?= base_url('assets/js/main.js') ?>"></script>
+
   <!-- SWEETALERT -->
-  <script src="<?= base_url('assets/vendor/sweetalert/sweetalert2.all.min.js') ?>"></script>
+  <script src=" <?= base_url('assets/vendor/sweetalert/sweetalert2.all.min.js') ?>"></script>
 
   <?php
     $formErrorUsername = form_error('username');
@@ -108,5 +143,4 @@
     </script>
   <?php endif; ?>
 </body>
-
 </html>

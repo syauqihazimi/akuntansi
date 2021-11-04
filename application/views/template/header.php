@@ -106,5 +106,10 @@
           </li>
         </ul>
       </div>
+      <small>
+      <div class=" text-center text-muted">
+              &copy; 2018 <a class="font-weight-bold ml-1" target="_blank">Hidayat Chandra</a>
+            </div>
+      </small>
     </div>
   </nav>
