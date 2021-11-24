@@ -41,7 +41,9 @@ class User_model extends CI_Model{
                              ->get($this->table)
                              ->row();
         
-        if(count($user)){
+        // if(count($user)){
+            if(isset($user)) {
+                
             $sessionData = [
                 'login'=>true,
                 'username'=>$user->nama,
