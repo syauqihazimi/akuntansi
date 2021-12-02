@@ -101,7 +101,22 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="<?= base_url('laporan') ?>">
-            <i class="fas fa-file-pdf text-red"></i>Laporan
+            <i class="fas fa-file-pdf text-red"></i>Laporan Arus Kas
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('laporan') ?>">
+            <i class="fas fa-file-pdf text-red"></i>Laporan Laba Rugi
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('laporan') ?>">
+            <i class="fas fa-file-pdf text-red"></i>Laporan Perubahan Modal
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('laporan') ?>">
+            <i class="fas fa-file-pdf text-red"></i>Neraca 
             </a>
           </li>
         </ul>
