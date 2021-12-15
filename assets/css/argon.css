@@ -3067,7 +3067,7 @@ fieldset:disabled a.btn
 .btn-success:focus,
 .btn-success.focus
 {
-    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08), 0 0 0 0 rgba(45, 206, 137, .5);
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08), 0 0 0 0 rgba(243, 22, 206, 0.5)
 }
 .btn-success.disabled,
 .btn-success:disabled
@@ -3082,7 +3082,7 @@ fieldset:disabled a.btn
 {
     color: #fff;
     border-color: #3994ba; 
-    background-color: #24a46d;
+    background-color: #d55f8d;
 }
 .btn-success:not(:disabled):not(.disabled):active:focus,
 .btn-success:not(:disabled):not(.disabled).active:focus,

@@ -306,9 +306,41 @@ class User extends CI_Controller{
         $this->load->view('template',compact('content','titleTag','dataAkun','data','jumlah','saldo'));
     }
 
-    public function laporan(){
-        $titleTag = 'Laporan';
-        $content = 'user/laporan_main';
+    public function laporanaruskas(){
+        $titleTag = 'Laporan Arus Kas';
+        $content = 'user/laporan_aruskas';
+        $listJurnal = $this->jurnal->getJurnalByYearAndMonth();
+        $tahun = $this->jurnal->getJurnalByYear();
+        $this->load->view('template',compact('content','listJurnal','titleTag','tahun'));
+    }
+
+    public function laporanlabarugi(){
+        $titleTag = 'Laporan Laba Rugi';
+        $content = 'user/laporan_labarugi';
+        $listJurnal = $this->jurnal->getJurnalByYearAndMonth();
+        $tahun = $this->jurnal->getJurnalByYear();
+        $this->load->view('template',compact('content','listJurnal','titleTag','tahun'));
+    }
+
+    public function laporanperubahanmodal(){
+        $titleTag = 'Laporan Perubahan Modal';
+        $content = 'user/laporan_perubahanmodal';
+        $listJurnal = $this->jurnal->getJurnalByYearAndMonth();
+        $tahun = $this->jurnal->getJurnalByYear();
+        $this->load->view('template',compact('content','listJurnal','titleTag','tahun'));
+    }
+
+    public function laporanneraca(){
+        $titleTag = 'Neraca';
+        $content = 'user/laporan_neraca';
+        $listJurnal = $this->jurnal->getJurnalByYearAndMonth();
+        $tahun = $this->jurnal->getJurnalByYear();
+        $this->load->view('template',compact('content','listJurnal','titleTag','tahun'));
+    }
+
+    public function about(){
+        $titleTag = 'About';
+        $content = 'user/about';
         $listJurnal = $this->jurnal->getJurnalByYearAndMonth();
         $tahun = $this->jurnal->getJurnalByYear();
         $this->load->view('template',compact('content','listJurnal','titleTag','tahun'));

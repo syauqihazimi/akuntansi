@@ -81,8 +81,12 @@ $route['neraca_saldo'] = 'user/neracaSaldo';
 $route['neraca_saldo/detail'] = 'user/neracaSaldoDetail';
 
 // LAPORAN
-$route['laporan'] = 'user/laporan';
+$route['laporan_aruskas'] = 'user/laporanaruskas';
+$route['laporan_labarugi'] = 'user/laporanlabarugi';
+$route['laporan_perubahanmodal'] = 'user/laporanperubahanmodal';
+$route['laporan_neraca'] = 'user/laporanneraca';
 $route['laporan/cetak'] = 'user/laporanCetak';
+$route['about'] = 'user/about';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

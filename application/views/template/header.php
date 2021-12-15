@@ -100,30 +100,30 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('laporan') ?>">
-            <i class="fas fa-file-pdf text-red"></i>Laporan Arus Kas
+            <a class="nav-link" href="<?= base_url('laporan_aruskas') ?>">
+            <i class="fas fa-align-right text-purple"></i>Laporan Arus Kas
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('laporan') ?>">
-            <i class="fas fa-file-pdf text-red"></i>Laporan Laba Rugi
+            <a class="nav-link" href="<?= base_url('laporan_labarugi') ?>">
+            <i class="fas fa-money-check-alt text-red"></i>Laporan Laba Rugi
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('laporan') ?>">
-            <i class="fas fa-file-pdf text-red"></i>Laporan Perubahan Modal
+            <a class="nav-link" href="<?= base_url('laporan_perubahanmodal') ?>">
+            <i class="fas fa-money-bill-wave text-green"></i>Laporan Perubahan Modal
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('laporan') ?>">
-            <i class="fas fa-file-pdf text-red"></i>Neraca 
+            <a class="nav-link" href="<?= base_url('laporan_neraca') ?>">
+            <i class="fas fa-balance-scale text-purple"></i>Neraca 
             </a>
           </li>
         </ul>
       </div>
       <small>
       <div class=" text-center text-muted">
-              &copy; 2018 <a class="font-weight-bold ml-1" target="_blank">Hidayat Chandra</a>
+              &copy;<a class="font-weight-bold ml-1"  href="<?= base_url('about') ?>">About Me</a>
             </div>
       </small>
     </div>
