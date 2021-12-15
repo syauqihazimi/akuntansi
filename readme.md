@@ -1,4 +1,4 @@
-![Alt Text] (https://github.com/syauqihazimi/Project-Akhir-Akuntansi/blob/3c97808cfcbafb8ad5286436ac49ce9a6e233b00/assets/img/brand/blue.png)
+![Alt Text] https://raw.githubusercontent.com/syauqihazimi/Project-Akhir-Akuntansi/3c97808cfcbafb8ad5286436ac49ce9a6e233b00/assets/img/brand/blue.png
 <hr />
 <p><strong>Autokuntansi</strong> adalah sistem informasi akuntansi yang membantu mencatat transaksi keuangan perusahaan
     atau usaha Anda secara online melalui website.</p>
