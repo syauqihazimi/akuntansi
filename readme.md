@@ -1,19 +1,58 @@
-![Alt Text](https://raw.githubusercontent.com/yat98/sia/master/assets/img/brand/blue.png)
-<br><br><br>
-Autokuntansi adalah sistem informasi akuntansi yang membantu mencatat transaksi keuangan perusahaan atau usaha Anda secara online melalui website.
-<br><br><br>
-Dengan bantuan sistem ini, Anda tidak perlu membuat laporan keuangan secara manual, karena catatan transaksi yang telah Anda input dalam sistem langsung dapat di cetak atau di download dalam format .pdf
-<hr>
+<p>(logo autokuntansi)</p>
+<hr />
+<p><strong>Autokuntansi</strong> adalah sistem informasi akuntansi yang membantu mencatat transaksi keuangan perusahaan
+    atau usaha Anda secara online melalui website.</p>
+<p>Dengan bantuan sistem ini, Anda tidak perlu membuat laporan keuangan secara manual, karena catatan transaksi yang
+    telah Anda input dalam sistem langsung dapat di cetak atau di download dalam format .pdf</p>
+<hr />
+<h2>Daftar Divisi</h2>
+<hr />
+<h3>Tim Analyst</h3>
+<ul>
+    <li>Muhamad Irsyad</li>
+    <li>Cut Aja Anis Layyinna</li>
+    <li>Afrida Chaerunnisa</li>
+    <li>Nanda Putri Styaningrum</li>
+</ul>
+<h3>Tim Desain</h3>
+<ul>
+    <li>Ari Lathifah</li>
+    <li>Nurul Islah</li>
+    <li>Ucha Aprilia</li>
+    <li>Ani Rosidah</li>
+    <li>Amanda Putri Rahayu</li>
+    <li>Dewi Syifa</li>
+</ul>
+<h3>Tim Programmer</h3>
+<ul>
+    <li>Faaza Bil Amri</li>
+    <li>Fahar Muharram</li>
+    <li>Insan Kamil</li>
+    <li>Nur Ihsan Fajar Ramadhan</li>
+    <li>Rijal Khatami</li>
+    <li>Muhammad Noor Rokhim</li>
+    <li>Muhammad Syauqi Hazimi</li>
+    <li>Jihan Fadhillah</li>
+</ul>
+<h3>Tim Dokumentasi</h3>
+<ul>
+    <li>Syfa Aula</li>
+    <li>Muhamad Rizky</li>
+</ul>
+<hr />
+<h2>Cara Penggunaan Aplikasi</h2>
+<hr />
 <h3>Cara Install</h3>
 <ul>
-<li>jalan perintah pada prompt atau terminal composer install</li>
-<li>buat database siak, kemudian import database yang ada pada folder database</li>
+    <li>Nyalakan XAMPP pada Laptop</li>
+    <li>Jalankan perintah pada prompt atau terminal composer install</li>
+    <li>Buatlah database siak, kemudian import database yang ada pada folder database</li>
 </ul>
-<hr>
-<h3>Login</h3>
+<hr />
+<h3>Akses Login</h3>
 <ul>
-<li>Username : finance </li>
-	<li>username : accountant </li>
-<li>Username : kelas5a </li>
-<li>password : 12345678 </li>
-</u>
+    <li>Username: kelas5a</li>
+    <li>Username: finance</li>
+    <li>Username: accountant</li>
+    <li>Password: 12345678</li>
+</ul>
