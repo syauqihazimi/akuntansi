@@ -1,4 +1,4 @@
-<p>(logo autokuntansi)</p>
+![Alt Text] (assets/img/brand/300x300.png)
 <hr />
 <p><strong>Autokuntansi</strong> adalah sistem informasi akuntansi yang membantu mencatat transaksi keuangan perusahaan
     atau usaha Anda secara online melalui website.</p>
