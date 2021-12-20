@@ -21,12 +21,12 @@
     <li>Ucha Aprilia</li>
     <li>Ani Rosidah</li>
     <li>Amanda Putri Rahayu</li>
-    <li>Dewi Syifa</li>
+    <li>Dewi Syifa Andini</li>
 </ul>
 <h3>Tim Programmer</h3>
 <ul>
     <li>Faaza Bil Amri</li>
-    <li>Fahar Muharram</li>
+    <li>Fahar Muharram Arizky</li>
     <li>Insan Kamil</li>
     <li>Nur Ihsan Fajar Ramadhan</li>
     <li>Rijal Khatami</li>
