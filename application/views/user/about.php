@@ -61,6 +61,10 @@
     atau usaha Anda secara online melalui website.</p>
 <p>Dengan bantuan sistem ini, Anda tidak perlu membuat laporan keuangan secara manual, karena catatan transaksi yang
     telah Anda input dalam sistem langsung dapat di cetak atau di download dalam format .pdf</p>
+    <hr />
+    <h3><strong>Kelas 5A</strong></h3>
+<h3><strong>Sistem Informasi</strong></h3>
+<h3><strong>Dosen Pembimbing : Nur Aeni Hidayah, S.E., M.M.S.I.</strong></h3>
 <hr />
 <h2>Daftar Divisi</h2>
 <hr />
@@ -114,6 +118,15 @@
     <li>Username: accountant</li>
     <li>Password: 12345678</li>
 </ul>
+<h3><strong>Technology</strong></h3>
+<ul>
+<li>PHP</li>
+<li>Laravel (PHP Back-end Framework)</li>
+<li>Bootstrap (CSS Framework)</li>
+<li>Jquery (Javascript Framework)</li>
+<li>MySQL (Database)</li>
+</ul>
+<p>Accountant Framework Code : &copy; Hidayat Chandra</p>
 
               <!-- ISI DISINI BROW!! -->
                 </div>
