@@ -44,9 +44,12 @@
 <hr />
 <h3>Cara Install</h3>
 <ul>
-    <li>Nyalakan XAMPP pada Laptop</li>
+    <li>Clone repository yang ada di Github ke folder htdocs yang ada di xampp</li>
+	<li>Rename folder Project-Akhir-Akuntansi menjadi akuntansi</li>
+	<li>Nyalakan XAMPP Control pada Laptop</li>
     <li>Jalankan perintah pada prompt atau terminal composer install</li>
     <li>Buatlah database siak, kemudian import database yang ada pada folder database</li>
+	<li>buka localhost/akuntansi untuk membuka aplikasi</li>
 </ul>
 <hr />
 <h3>Akses Login</h3>
